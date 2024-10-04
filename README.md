@@ -1,6 +1,5 @@
 Relatório Árvore Binária (Implementação Sequencial)<br/>
-Heloísa Louzada Borchardt Gomes<br/>
-
+<br/>
 1. Explicação sobre a estratégia utilizada.<br/> 
 O código implementa uma árvore binária de busca utilizando um vetor para armazenar as informações dos alunos e simular a estrutura da árvore.
 2. Descrição do algoritmo e das estruturas utilizadas.<br/>
