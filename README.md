@@ -1,11 +1,11 @@
-Relatório Árvore Binária (Implementação Sequencial)
-Heloísa Louzada Borchardt Gomes
+Relatório Árvore Binária (Implementação Sequencial)<br/>
+Heloísa Louzada Borchardt Gomes<br/>
 
-1. Explicação sobre a estratégia utilizada. 
+1. Explicação sobre a estratégia utilizada.<br/> 
 O código implementa uma árvore binária de busca utilizando um vetor para armazenar as informações dos alunos e simular a estrutura da árvore.
-2. Descrição do algoritmo e das estruturas utilizadas. 
+2. Descrição do algoritmo e das estruturas utilizadas.<br/>
  
-Para o pleno funcionamento do código, foi importado as seguintes bibliotecas: 
+Para o pleno funcionamento do código, foi importado as seguintes bibliotecas:<br/> 
 •	stdio.h: Biblioteca padrão de entrada e saída.
 •	stdlib.h: Biblioteca padrão de funções utilitárias, como alocação de memória.
 •	string.h: Biblioteca para manipulação de strings.
@@ -13,7 +13,7 @@ Para o pleno funcionamento do código, foi importado as seguintes bibliotecas:
 •	Tab_arvore.h: Cabeçalho personalizado (presumivelmente contém definições e declarações de funções do programa. As funções serão explanadas posteriormente e podem ser divididas em três categorias: Manipulação de arquivo, funções base do menu e funções auxiliares. Segue a foto da “Tab_arvore.h”.
 
 
-FUNÇÕES MANIPULAÇÃO DE ARQUIVO
+FUNÇÕES MANIPULAÇÃO DE ARQUIVO <br/>
 É um grupo de funções responsáveis por ler e retirar as informações do arquivo “nome_matriculas.txt”.
 A função “abrirArquivo” abre o arquivo com o nome e modo especificado e retorna um ponteiro para o arquivo, ou exibe uma mensagem de erro caso não consiga abrir o arquivo.
 
@@ -28,7 +28,7 @@ A função “procurarIndice” insere o aluno na posição correta da árvore u
 A função “criarVetor” cria e inicializa uma árvore com um vetor de alunos e um vetor de status para controle das posições ocupadas. Para isso, a alocação de memória para a árvore depende da quantidade de alunos obtida pela função “quantidadeElementos” multiplicada por 100.
 
 
-FUNÇÕES PRINCIPAIS DO MENU
+FUNÇÕES PRINCIPAIS DO MENU<br/>
 A função “inserir” insere um novo aluno na árvore e verifica se a raiz está vazia. Caso contrário, usa “procurarIndice” para encontrar a posição correta.
  
 A função “pesquisar” pesquisa um aluno na árvore linearmente, percorrendo o vetor e retorna o aluno se a matrícula for encontrada, ou null se não for.
