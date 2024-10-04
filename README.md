@@ -19,6 +19,7 @@ A função “abrirArquivo” abre o arquivo com o nome e modo especificado e re
 A função “carregarArquivo” lê os nomes e números de matrícula de um arquivo e insere esses dados na árvore binária usando a função pesquisar para verificar se a matrícula do aluno já existe no vetor antes de inseri-lo na árvore.<br/>
  
 A função “gravarArquivo” tem como utilidade gravar os dados da árvore no arquivo, apenas para os alunos com status ativo (status == 1), e ao final fecha o arquivo.<br/>
+
 FUNÇÕES AUXILIARES<br/>
 A função “quantidadeElementos” conta o número de alunos no arquivo e retorna a quantidade de entradas no arquivo que será utilizada para a criação estática do vetor.<br/>
 
